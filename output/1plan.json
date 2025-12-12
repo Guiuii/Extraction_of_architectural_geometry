@@ -1,0 +1,1913 @@
+{
+  "meta": {
+    "source": "1plan.png",
+    "image_size": {
+      "width": 1925,
+      "height": 1085
+    }
+  },
+  "walls": [
+    {
+      "id": "w1",
+      "points": [
+        [
+          7,
+          5
+        ],
+        [
+          1917,
+          5
+        ]
+      ],
+      "length": 1910.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w2",
+      "points": [
+        [
+          6,
+          1078
+        ],
+        [
+          1918,
+          1078
+        ]
+      ],
+      "length": 1912.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w3",
+      "points": [
+        [
+          5,
+          1077
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "length": 1070.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w4",
+      "points": [
+        [
+          1918,
+          1077
+        ],
+        [
+          1918,
+          6
+        ]
+      ],
+      "length": 1071.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w5",
+      "points": [
+        [
+          547,
+          976
+        ],
+        [
+          1208,
+          976
+        ]
+      ],
+      "length": 661.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w6",
+      "points": [
+        [
+          1418,
+          756
+        ],
+        [
+          1418,
+          104
+        ]
+      ],
+      "length": 652.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w7",
+      "points": [
+        [
+          1010,
+          134
+        ],
+        [
+          1076,
+          134
+        ]
+      ],
+      "length": 66.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w8",
+      "points": [
+        [
+          527,
+          138
+        ],
+        [
+          725,
+          138
+        ]
+      ],
+      "length": 198.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w9",
+      "points": [
+        [
+          1048,
+          534
+        ],
+        [
+          1156,
+          534
+        ]
+      ],
+      "length": 108.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w10",
+      "points": [
+        [
+          551,
+          626
+        ],
+        [
+          551,
+          327
+        ]
+      ],
+      "length": 299.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w11",
+      "points": [
+        [
+          1397,
+          333
+        ],
+        [
+          1397,
+          148
+        ]
+      ],
+      "length": 185.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w12",
+      "points": [
+        [
+          818,
+          522
+        ],
+        [
+          818,
+          148
+        ]
+      ],
+      "length": 374.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w13",
+      "points": [
+        [
+          509,
+          577
+        ],
+        [
+          509,
+          451
+        ]
+      ],
+      "length": 126.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w14",
+      "points": [
+        [
+          554,
+          639
+        ],
+        [
+          861,
+          639
+        ]
+      ],
+      "length": 307.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w15",
+      "points": [
+        [
+          1082,
+          954
+        ],
+        [
+          1197,
+          954
+        ]
+      ],
+      "length": 115.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w16",
+      "points": [
+        [
+          873,
+          952
+        ],
+        [
+          873,
+          746
+        ]
+      ],
+      "length": 206.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w17",
+      "points": [
+        [
+          829,
+          420
+        ],
+        [
+          829,
+          149
+        ]
+      ],
+      "length": 271.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w18",
+      "points": [
+        [
+          1120,
+          421
+        ],
+        [
+          1120,
+          148
+        ]
+      ],
+      "length": 273.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w19",
+      "points": [
+        [
+          552,
+          953
+        ],
+        [
+          622,
+          953
+        ]
+      ],
+      "length": 70.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w20",
+      "points": [
+        [
+          1130,
+          420
+        ],
+        [
+          1130,
+          149
+        ]
+      ],
+      "length": 271.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w21",
+      "points": [
+        [
+          842,
+          523
+        ],
+        [
+          980,
+          523
+        ]
+      ],
+      "length": 138.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w22",
+      "points": [
+        [
+          729,
+          103
+        ],
+        [
+          856,
+          103
+        ]
+      ],
+      "length": 127.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w23",
+      "points": [
+        [
+          1219,
+          975
+        ],
+        [
+          1219,
+          757
+        ]
+      ],
+      "length": 218.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w24",
+      "points": [
+        [
+          530,
+          134
+        ],
+        [
+          726,
+          134
+        ]
+      ],
+      "length": 196.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w25",
+      "points": [
+        [
+          874,
+          732
+        ],
+        [
+          926,
+          732
+        ]
+      ],
+      "length": 52.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w26",
+      "points": [
+        [
+          727,
+          147
+        ],
+        [
+          817,
+          147
+        ]
+      ],
+      "length": 90.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w27",
+      "points": [
+        [
+          1152,
+          743
+        ],
+        [
+          1194,
+          743
+        ]
+      ],
+      "length": 42.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w28",
+      "points": [
+        [
+          552,
+          627
+        ],
+        [
+          722,
+          627
+        ]
+      ],
+      "length": 170.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w29",
+      "points": [
+        [
+          527,
+          326
+        ],
+        [
+          527,
+          137
+        ]
+      ],
+      "length": 189.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w30",
+      "points": [
+        [
+          530,
+          325
+        ],
+        [
+          530,
+          131
+        ]
+      ],
+      "length": 194.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w31",
+      "points": [
+        [
+          508,
+          663
+        ],
+        [
+          508,
+          578
+        ]
+      ],
+      "length": 85.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w32",
+      "points": [
+        [
+          723,
+          628
+        ],
+        [
+          861,
+          628
+        ]
+      ],
+      "length": 138.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w33",
+      "points": [
+        [
+          1197,
+          953
+        ],
+        [
+          1197,
+          920
+        ]
+      ],
+      "length": 33.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w34",
+      "points": [
+        [
+          1038,
+          811
+        ],
+        [
+          1038,
+          790
+        ]
+      ],
+      "length": 21.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w35",
+      "points": [
+        [
+          862,
+          750
+        ],
+        [
+          862,
+          725
+        ]
+      ],
+      "length": 25.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w36",
+      "points": [
+        [
+          613,
+          299
+        ],
+        [
+          773,
+          299
+        ]
+      ],
+      "length": 160.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w37",
+      "points": [
+        [
+          1051,
+          910
+        ],
+        [
+          1197,
+          910
+        ]
+      ],
+      "length": 146.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w38",
+      "points": [
+        [
+          1349,
+          649
+        ],
+        [
+          1349,
+          535
+        ]
+      ],
+      "length": 114.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w39",
+      "points": [
+        [
+          612,
+          302
+        ],
+        [
+          774,
+          302
+        ]
+      ],
+      "length": 162.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w40",
+      "points": [
+        [
+          1395,
+          472
+        ],
+        [
+          1395,
+          518
+        ]
+      ],
+      "length": 46.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w41",
+      "points": [
+        [
+          1131,
+          522
+        ],
+        [
+          1131,
+          421
+        ]
+      ],
+      "length": 101.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w42",
+      "points": [
+        [
+          1217,
+          134
+        ],
+        [
+          1273,
+          134
+        ]
+      ],
+      "length": 56.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w43",
+      "points": [
+        [
+          1049,
+          838
+        ],
+        [
+          1049,
+          746
+        ]
+      ],
+      "length": 92.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w44",
+      "points": [
+        [
+          1359,
+          639
+        ],
+        [
+          1359,
+          571
+        ]
+      ],
+      "length": 68.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w45",
+      "points": [
+        [
+          1083,
+          919
+        ],
+        [
+          1196,
+          919
+        ]
+      ],
+      "length": 113.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w46",
+      "points": [
+        [
+          1038,
+          953
+        ],
+        [
+          1038,
+          925
+        ]
+      ],
+      "length": 28.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w47",
+      "points": [
+        [
+          859,
+          112
+        ],
+        [
+          951,
+          112
+        ]
+      ],
+      "length": 92.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w48",
+      "points": [
+        [
+          1397,
+          651
+        ],
+        [
+          1397,
+          688
+        ]
+      ],
+      "length": 37.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w49",
+      "points": [
+        [
+          996,
+          732
+        ],
+        [
+          1091,
+          732
+        ]
+      ],
+      "length": 95.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w50",
+      "points": [
+        [
+          860,
+          115
+        ],
+        [
+          950,
+          115
+        ]
+      ],
+      "length": 90.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w51",
+      "points": [
+        [
+          851,
+          864
+        ],
+        [
+          851,
+          752
+        ]
+      ],
+      "length": 112.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w52",
+      "points": [
+        [
+          1342,
+          333
+        ],
+        [
+          1396,
+          333
+        ]
+      ],
+      "length": 54.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w53",
+      "points": [
+        [
+          1108,
+          523
+        ],
+        [
+          1108,
+          424
+        ]
+      ],
+      "length": 99.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w54",
+      "points": [
+        [
+          1334,
+          756
+        ],
+        [
+          1417,
+          756
+        ]
+      ],
+      "length": 83.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w55",
+      "points": [
+        [
+          549,
+          771
+        ],
+        [
+          549,
+          802
+        ]
+      ],
+      "length": 31.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w56",
+      "points": [
+        [
+          874,
+          953
+        ],
+        [
+          920,
+          953
+        ]
+      ],
+      "length": 46.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w57",
+      "points": [
+        [
+          1231,
+          534
+        ],
+        [
+          1347,
+          534
+        ]
+      ],
+      "length": 116.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w58",
+      "points": [
+        [
+          1312,
+          523
+        ],
+        [
+          1341,
+          523
+        ]
+      ],
+      "length": 29.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w59",
+      "points": [
+        [
+          1196,
+          797
+        ],
+        [
+          1196,
+          819
+        ]
+      ],
+      "length": 22.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w60",
+      "points": [
+        [
+          1206,
+          138
+        ],
+        [
+          1234,
+          138
+        ]
+      ],
+      "length": 28.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w61",
+      "points": [
+        [
+          862,
+          953
+        ],
+        [
+          862,
+          866
+        ]
+      ],
+      "length": 87.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w62",
+      "points": [
+        [
+          623,
+          954
+        ],
+        [
+          860,
+          954
+        ]
+      ],
+      "length": 237.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w63",
+      "points": [
+        [
+          508,
+          442
+        ],
+        [
+          508,
+          386
+        ]
+      ],
+      "length": 56.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w64",
+      "points": [
+        [
+          841,
+          522
+        ],
+        [
+          841,
+          423
+        ]
+      ],
+      "length": 99.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w65",
+      "points": [
+        [
+          1050,
+          909
+        ],
+        [
+          1050,
+          853
+        ]
+      ],
+      "length": 56.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w66",
+      "points": [
+        [
+          876,
+          743
+        ],
+        [
+          928,
+          743
+        ]
+      ],
+      "length": 52.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w67",
+      "points": [
+        [
+          875,
+          534
+        ],
+        [
+          928,
+          534
+        ]
+      ],
+      "length": 53.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w68",
+      "points": [
+        [
+          1197,
+          765
+        ],
+        [
+          1197,
+          745
+        ]
+      ],
+      "length": 20.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w69",
+      "points": [
+        [
+          869,
+          134
+        ],
+        [
+          925,
+          134
+        ]
+      ],
+      "length": 56.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w70",
+      "points": [
+        [
+          1319,
+          134
+        ],
+        [
+          1376,
+          133
+        ]
+      ],
+      "length": 57.0087712549569,
+      "angle": 178.99491399474581,
+      "type": "horizontal"
+    },
+    {
+      "id": "w71",
+      "points": [
+        [
+          885,
+          138
+        ],
+        [
+          941,
+          138
+        ]
+      ],
+      "length": 56.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w72",
+      "points": [
+        [
+          1331,
+          733
+        ],
+        [
+          1397,
+          733
+        ]
+      ],
+      "length": 66.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w73",
+      "points": [
+        [
+          520,
+          326
+        ],
+        [
+          550,
+          326
+        ]
+      ],
+      "length": 30.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w74",
+      "points": [
+        [
+          1233,
+          523
+        ],
+        [
+          1271,
+          523
+        ]
+      ],
+      "length": 38.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w75",
+      "points": [
+        [
+          1111,
+          654
+        ],
+        [
+          1135,
+          654
+        ]
+      ],
+      "length": 24.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w76",
+      "points": [
+        [
+          1290,
+          134
+        ],
+        [
+          1318,
+          134
+        ]
+      ],
+      "length": 28.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w77",
+      "points": [
+        [
+          1232,
+          343
+        ],
+        [
+          1256,
+          343
+        ]
+      ],
+      "length": 24.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w78",
+      "points": [
+        [
+          509,
+          974
+        ],
+        [
+          509,
+          903
+        ]
+      ],
+      "length": 71.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w79",
+      "points": [
+        [
+          652,
+          320
+        ],
+        [
+          673,
+          320
+        ]
+      ],
+      "length": 21.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w80",
+      "points": [
+        [
+          1352,
+          339
+        ],
+        [
+          1391,
+          339
+        ]
+      ],
+      "length": 39.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w81",
+      "points": [
+        [
+          1295,
+          138
+        ],
+        [
+          1323,
+          138
+        ]
+      ],
+      "length": 28.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w82",
+      "points": [
+        [
+          510,
+          817
+        ],
+        [
+          549,
+          817
+        ]
+      ],
+      "length": 39.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w83",
+      "points": [
+        [
+          1152,
+          733
+        ],
+        [
+          1210,
+          732
+        ]
+      ],
+      "length": 58.008620049092706,
+      "angle": 179.0122396003602,
+      "type": "horizontal"
+    },
+    {
+      "id": "w84",
+      "points": [
+        [
+          981,
+          953
+        ],
+        [
+          1037,
+          953
+        ]
+      ],
+      "length": 56.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w85",
+      "points": [
+        [
+          952,
+          146
+        ],
+        [
+          1009,
+          146
+        ]
+      ],
+      "length": 57.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w86",
+      "points": [
+        [
+          1050,
+          523
+        ],
+        [
+          1093,
+          523
+        ]
+      ],
+      "length": 43.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w87",
+      "points": [
+        [
+          926,
+          134
+        ],
+        [
+          950,
+          134
+        ]
+      ],
+      "length": 24.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w88",
+      "points": [
+        [
+          1361,
+          650
+        ],
+        [
+          1396,
+          650
+        ]
+      ],
+      "length": 35.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w89",
+      "points": [
+        [
+          1038,
+          869
+        ],
+        [
+          1038,
+          831
+        ]
+      ],
+      "length": 38.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w90",
+      "points": [
+        [
+          951,
+          781
+        ],
+        [
+          971,
+          781
+        ]
+      ],
+      "length": 20.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w91",
+      "points": [
+        [
+          1159,
+          134
+        ],
+        [
+          1193,
+          134
+        ]
+      ],
+      "length": 34.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w92",
+      "points": [
+        [
+          1336,
+          138
+        ],
+        [
+          1364,
+          138
+        ]
+      ],
+      "length": 28.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w93",
+      "points": [
+        [
+          1396,
+          471
+        ],
+        [
+          1396,
+          424
+        ]
+      ],
+      "length": 47.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w94",
+      "points": [
+        [
+          1397,
+          696
+        ],
+        [
+          1397,
+          724
+        ]
+      ],
+      "length": 28.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w95",
+      "points": [
+        [
+          1053,
+          743
+        ],
+        [
+          1084,
+          742
+        ]
+      ],
+      "length": 31.016124838541646,
+      "angle": 178.1523897340054,
+      "type": "horizontal"
+    },
+    {
+      "id": "w96",
+      "points": [
+        [
+          1011,
+          138
+        ],
+        [
+          1042,
+          138
+        ]
+      ],
+      "length": 31.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w97",
+      "points": [
+        [
+          1197,
+          820
+        ],
+        [
+          1197,
+          853
+        ]
+      ],
+      "length": 33.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w98",
+      "points": [
+        [
+          1341,
+          522
+        ],
+        [
+          1395,
+          522
+        ]
+      ],
+      "length": 54.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w99",
+      "points": [
+        [
+          522,
+          770
+        ],
+        [
+          548,
+          770
+        ]
+      ],
+      "length": 26.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w100",
+      "points": [
+        [
+          953,
+          103
+        ],
+        [
+          1007,
+          103
+        ]
+      ],
+      "length": 54.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    },
+    {
+      "id": "w101",
+      "points": [
+        [
+          1397,
+          604
+        ],
+        [
+          1397,
+          640
+        ]
+      ],
+      "length": 36.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w102",
+      "points": [
+        [
+          675,
+          822
+        ],
+        [
+          675,
+          787
+        ]
+      ],
+      "length": 35.0,
+      "angle": 90.0,
+      "type": "vertical"
+    },
+    {
+      "id": "w103",
+      "points": [
+        [
+          1360,
+          640
+        ],
+        [
+          1396,
+          640
+        ]
+      ],
+      "length": 36.0,
+      "angle": 0.0,
+      "type": "horizontal"
+    }
+  ],
+  "doors": [
+    {
+      "bbox": [
+        1345,
+        332,
+        47,
+        52
+      ],
+      "points": [
+        [
+          1350,
+          384
+        ],
+        [
+          1345,
+          381
+        ],
+        [
+          1387,
+          332
+        ],
+        [
+          1392,
+          335
+        ]
+      ],
+      "endpoints": [
+        [
+          1348,
+          383
+        ],
+        [
+          1390,
+          334
+        ]
+      ],
+      "angle": 130.60129464500446,
+      "length": 64.53681120105021,
+      "wall_type": "horizontal",
+      "direction": "right",
+      "type": "door",
+      "id": "d1"
+    },
+    {
+      "bbox": [
+        830,
+        559,
+        38,
+        59
+      ],
+      "points": [
+        [
+          830,
+          562
+        ],
+        [
+          835,
+          559
+        ],
+        [
+          868,
+          615
+        ],
+        [
+          863,
+          618
+        ]
+      ],
+      "endpoints": [
+        [
+          833,
+          561
+        ],
+        [
+          866,
+          617
+        ]
+      ],
+      "angle": 59.48976259388444,
+      "length": 65.0,
+      "wall_type": "horizontal",
+      "direction": "right",
+      "type": "door",
+      "id": "d2"
+    },
+    {
+      "bbox": [
+        1153,
+        488,
+        63,
+        41
+      ],
+      "points": [
+        [
+          1156,
+          529
+        ],
+        [
+          1153,
+          524
+        ],
+        [
+          1213,
+          488
+        ],
+        [
+          1216,
+          493
+        ]
+      ],
+      "endpoints": [
+        [
+          1155,
+          527
+        ],
+        [
+          1215,
+          491
+        ]
+      ],
+      "angle": 149.03624346792648,
+      "length": 69.9714227381436,
+      "wall_type": "horizontal",
+      "direction": "right",
+      "type": "door",
+      "id": "d3"
+    },
+    {
+      "bbox": [
+        1097,
+        702,
+        56,
+        36
+      ],
+      "points": [
+        [
+          1097,
+          707
+        ],
+        [
+          1100,
+          702
+        ],
+        [
+          1153,
+          733
+        ],
+        [
+          1150,
+          738
+        ]
+      ],
+      "endpoints": [
+        [
+          1099,
+          705
+        ],
+        [
+          1152,
+          736
+        ]
+      ],
+      "angle": 30.323606862549987,
+      "length": 61.40032573203501,
+      "wall_type": "horizontal",
+      "direction": "left",
+      "type": "door",
+      "id": "d4"
+    },
+    {
+      "bbox": [
+        993,
+        488,
+        57,
+        43
+      ],
+      "points": [
+        [
+          993,
+          493
+        ],
+        [
+          996,
+          488
+        ],
+        [
+          1050,
+          526
+        ],
+        [
+          1047,
+          531
+        ]
+      ],
+      "endpoints": [
+        [
+          995,
+          491
+        ],
+        [
+          1049,
+          529
+        ]
+      ],
+      "angle": 35.134193056915635,
+      "length": 66.03029607687671,
+      "wall_type": "horizontal",
+      "direction": "right",
+      "type": "door",
+      "id": "d5"
+    },
+    {
+      "bbox": [
+        826,
+        646,
+        49,
+        56
+      ],
+      "points": [
+        [
+          831,
+          702
+        ],
+        [
+          826,
+          699
+        ],
+        [
+          870,
+          646
+        ],
+        [
+          875,
+          649
+        ]
+      ],
+      "endpoints": [
+        [
+          829,
+          701
+        ],
+        [
+          873,
+          648
+        ]
+      ],
+      "angle": 129.6990734834743,
+      "length": 68.8839603971781,
+      "wall_type": "horizontal",
+      "direction": "right",
+      "type": "door",
+      "id": "d7"
+    }
+  ]
+}
