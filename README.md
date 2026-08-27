@@ -1,65 +1,69 @@
-# Парсер архитектурных планов
+# Architectural Floor Plan Parser
 
-Прототип системы для извлечения геометрии стен и дверей из изображений планов квартир с использованием компьютерного зрения.
+A prototype system for extracting the geometry of walls and doors from images of apartment floor plans using computer vision.
 
-## Цель проекта
+## Project Goal
 
-Преобразовать изображения архитектурных планов в структурированный JSON формат для последующего использования в 2D/3D приложениях.
+Convert images of architectural floor plans into a structured JSON format for subsequent use in 2D/3D applications.
 
-## Технологический стек и обоснование выбора
+## Technology Stack and Rationale for Selection
 
-- **OpenCV**: Классические алгоритмы компьютерного зрения
-- **NumPy**: Математические операции и обработка массивов
-- **Matplotlib**: Визуализация результатов
+* **OpenCV**: Classical computer vision algorithms
+* **NumPy**: Mathematical operations and array processing
+* **Matplotlib**: Visualization of results
 
-## Структура проекта
+## Project Structure
 
-```
+```text
 .
-├── floorplan_parser.py       # Основной класс парсера
-├── main.py                   # Точка входа для пакетной обработки
-├── visualization.py          # Визуализация результатов
-├── requirements.txt          # Зависимости Python
-├── README.md                 # Документация
-├── wall_door_detection.ipynb # Ноутбук разработки
-├── plans/                    # Входные изображения
-├── output/                   # Выходные JSON файлы
-└── examples/                 # Примеры результатов
+├── floorplan_parser.py       # Main parser class
+├── main.py                   # Entry point for batch processing
+├── visualization.py          # Visualization of results
+├── requirements.txt          # Python dependencies
+├── README.md                 # Documentation
+├── wall_door_detection.ipynb # Development notebook
+├── plans/                    # Input images
+├── output/                   # Output JSON files
+└── examples/                 # Examples of results
 ```
 
-**Почему выбран классический CV подход вместо нейросетей:**
+**Why a classical CV approach was chosen instead of neural networks:**
 
-1. **Прозрачность и контроль**: Каждый этап обработки полностью контролируем
-2. **Отсутствие необходимости в обучении**: Не требуется размеченный датасет
-3. **Быстрота работы**: Обработка изображения занимает <1 секунды
-4. **Эффективность на чертежах**: Линии на архитектурных планах обычно четкие и прямые
-5. **Интерпретируемость**: Легко понять, почему алгоритм нашел те или иные элементы
+1. **Transparency and control**: Every processing step is fully controllable
+2. **No need for training**: No labeled dataset is required
+3. **Processing speed**: Image processing takes <1 second
+4. **Efficiency on drawings**: Lines in architectural floor plans are usually clear and straight
+5. **Interpretability**: It is easy to understand why the algorithm detected certain elements
 
-## Пайплайн обработки
+## Processing Pipeline
 
-### Этап 1: Предобработка изображения
-- Конвертация в градации серого
-- Улучшение контраста (CLAHE)
-- Автоматическая бинаризация (метод Оцу)
+### Stage 1: Image Preprocessing
 
-### Этап 2: Детекция стен
-- Детекция краев (алгоритм Canny)
-- Поиск линий (Probabilistic Hough Transform)
-- Фильтрация по длине и углу
-- Классификация линий на горизонтальные, вертикальные и диагональные
+* Conversion to grayscale
+* Contrast enhancement (CLAHE)
+* Automatic binarization (Otsu's method)
 
-### Этап 3: Детекция дверей (дополнительный функционал)
-- Поиск коротких диагональных линий
-- Проверка примыкания к обнаруженным стенам
-- Определение направления открытия
-- Фильтрация дубликатов
+### Stage 2: Wall Detection
 
-### Этап 4: Формирование результата
-- Структурирование данных в JSON формат
-- Сохранение с метаинформацией
-- Визуализация результатов
+* Edge detection (Canny algorithm)
+* Line detection (Probabilistic Hough Transform)
+* Filtering by length and angle
+* Classification of lines into horizontal, vertical, and diagonal
 
-## Структура выходных данных
+### Stage 3: Door Detection (Additional Functionality)
+
+* Detection of short diagonal lines
+* Checking adjacency to detected walls
+* Determining the opening direction
+* Duplicate filtering
+
+### Stage 4: Result Generation
+
+* Structuring data in JSON format
+* Saving with metadata
+* Visualization of results
+
+## Output Data Structure
 
 ```json
 {
@@ -95,101 +99,112 @@
 }
 ```
 
-## Примеры получающейся разметки:
+## Examples of Resulting Annotations:
 
 ![1](examples/1plan.png)
 
-## Установка и запуск
+## Installation and Usage
 
-### Требования
-- Python 3.8+
-- Установленные зависимости из requirements.txt
+### Requirements
 
-### Установка зависимостей
+* Python 3.8+
+* Dependencies from requirements.txt
+
+### Installing Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Запуск обработки
+### Running the Processing
 
-1. Поместите изображения планов в папку `plans/`
-2. Запустите основной скрипт:
+1. Place floor plan images in the `plans/` folder
+2. Run the main script:
 
 ```bash
 python main.py
 ```
 
-3. Для визуализации результатов:
+3. To visualize the results:
 
 ```bash
 python visualization.py
 ```
 
-## Пример использования
+## Usage Example
 
 ```python
 from floorplan_parser import FloorplanParser
 
-# Создание парсера
+# Create parser
 parser = FloorplanParser()
 
-# Обработка изображения
+# Process image
 result = parser.process("plans/sample_plan.png")
 
-# Сохранение результата
+# Save result
 import json
 with open("output/plan.json", "w") as f:
     json.dump(result, f, indent=2)
 ```
 
-## Ограничения и слабые места
+## Limitations and Weak Points
 
-1. **Требования к качеству изображений**:
-   - Работает лучше всего с четкими цифровыми чертежами
-   - Может терять линии на сканах низкого качества
+1. **Image quality requirements**:
 
-2. **Геометрические предположения**:
-   - Предполагает, что стены представлены прямыми линиями
-   - Ожидает, что двери - это короткие диагональные линии
+   * Works best with clear digital drawings
+   * May lose lines in low-quality scans
 
-3. **Параметры алгоритмов**:
-   - Параметры подобраны для типовых планов
-   - Могут потребовать настройки для нестандартных случаев
+2. **Geometric assumptions**:
 
-4. **Неподдерживаемые случаи**:
-   - Изогнутые стены
-   - Перспективные искажения
-   - Перекрывающиеся элементы
+   * Assumes that walls are represented by straight lines
+   * Expects doors to be short diagonal lines
 
-5. **Проблемы с ложными срабатываниями**:
-   - Цифры размеров (например, "240", "1500") могут определяться как короткие линии-стены
-   - Текст и символы на плане могут интерпретироваться как архитектурные элементы
-   - Шумы и артефакты сканирования создают ложные линии
+3. **Algorithm parameters**:
 
-6. **Зависимость между компонентами**:
-   - Обнаружение дверей зависит от правильной детекции стен (проверка примыкания)
-   - Ошибки в определении стен приводят к пропуску или ложному определению дверей
-   - Нет взаимной проверки целостности плана (комнаты, углы)
+   * Parameters are selected for typical floor plans
+   * May require tuning for non-standard cases
 
-## План улучшений для следующей итерации
+4. **Unsupported cases**:
 
-1. **Интеграция нейросетевых подходов**:
-   - Добавление UNet для сегментации стен
-   - Использование YOLO для детекции сложных элементов
-   - Применение Tesseract OCR для распознавания размеров
+   * Curved walls
+   * Perspective distortions
+   * Overlapping elements
 
-2. **Улучшение геометрического анализа**:
-   - Объединение коллинеарных отрезков в единые стены
-   - Построение полигонов комнат
-   - Проверка топологической корректности плана
+5. **False-positive issues**:
 
-3. **Расширение функциональности**:
-   - Детекция окон и проемов
-   - Распознавание мебели и оборудования
-   - Экспорт в форматы DXF и SVG
+   * Dimension numbers (for example, "240", "1500") may be detected as short wall lines
+   * Text and symbols on the plan may be interpreted as architectural elements
+   * Noise and scanning artifacts create false lines
 
-4. **Обработка сложных случаев**:
-   - Автоматическая коррекция перспективы
-   - Удаление шумов и артефактов
-   - Поддержка цветных планов
+6. **Dependency between components**:
+
+   * Door detection depends on correct wall detection (adjacency check)
+   * Errors in wall detection lead to missed or false door detection
+   * There is no mutual integrity check of the floor plan (rooms, angles)
+
+## Improvement Plan for the Next Iteration
+
+1. **Integration of neural network approaches**:
+
+   * Add UNet for wall segmentation
+   * Use YOLO for detection of complex elements
+   * Apply Tesseract OCR for dimension recognition
+
+2. **Improvement of geometric analysis**:
+
+   * Merge collinear segments into unified walls
+   * Build room polygons
+   * Check topological correctness of the floor plan
+
+3. **Functionality Expansion**:
+
+   * Window and opening detection
+   * Furniture and equipment recognition
+   * Export to DXF and SVG formats
+
+4. **Handling Complex Cases**:
+
+   * Automatic perspective correction
+   * Noise and artifact removal
+   * Support for color floor plans
